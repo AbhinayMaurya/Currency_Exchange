@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 2rem;
+  width: 2rem;
+  object-fit: cover;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000, -1px -1px 2px red;
+  font-size: 2rem;
+}
+
+.container {
+  height: 405px;
+  width: 85%;
+  min-width: 250px;
+  border: 2px solid transparent;
+  padding: 0.5rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 5px -2px #000;
+  border-radius: 5px;
+}
+
+form {
+  height: 90%;
+  width: 90%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.from,
+.to {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.select {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.exchange-icon,
+.button {
+  text-align: center;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.amount>p {
+  font-size: 1.5rem;
+}
+
+.amount {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  border: none;
+  height: 3.5rem;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  color: black;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  outline: none;
+  background-color: white;
+}
+
+select,
+button {
+  border: none;
+}
+
+select {
+  background-color: transparent;
+  font-size: 1rem;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  margin-top: 1rem;
+}
+.button>button {
+  font-size: 1.25rem;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.convert {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.convert>p {
+  font-size: 1.125rem;
+}
+
+.select>.to, .select>.from {
+  padding: 1px;
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+}

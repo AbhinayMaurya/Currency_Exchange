@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Currency Exchange</title>
+</head>
+
+<body>
+  <div>
+    <header>
+      <h1>Currency Exchange</h1>
+    </header>
+    <div class="container">
+      <form>
+        <div class="from">
+          <div class="amount">
+            <p>AMOUNT</p>
+            <input type="number" id="input" value="1">
+          </div>
+        </div>
+        <div class="select">
+          <div class="from">
+            <div class="select-flag">
+              <img src="https://flagsapi.com/US/flat/64.png" alt="">
+            </div>
+            <select name="from" id="fromCurr"></select>
+          </div>
+          <div class="exchange-icon">
+            <div class="icon">
+              <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            </div>
+          </div>
+          <div class="to">
+            <div class="select-flag">
+              <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+            </div>
+            <select name="to" id="toCurr"></select>
+          </div>
+        </div>
+        <div class="to">
+          <div class="convert">
+            <p id="msg"></p>
+            <div class="button">
+              <button type="submit">CONVERT</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="codes.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
